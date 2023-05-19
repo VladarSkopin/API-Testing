@@ -1,3 +1,5 @@
-# Alex Skopin 2023
+import requests
 
-print('API')
+response = requests.get('https://playground.learnqa.ru/api/hello')
+
+print(response.text)
